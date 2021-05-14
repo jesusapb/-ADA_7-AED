@@ -26,8 +26,8 @@ class division:
     def construir_lista_2(self):
         #print("prueba")
         #self.nueva_lista.append(float(self.lista_cadena[-4]))
-        self.nueva_lista.append(float(self.lista_cadena[-7]))
         self.nueva_lista.append(float(self.lista_cadena[-8]))
+        self.nueva_lista.append(float(self.lista_cadena[-7]))
         #poner una expecion para el caso de la poscion -4
         try:
             self.nueva_lista.append(float(self.lista_cadena[-4]))
